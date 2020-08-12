@@ -1,0 +1,47 @@
+{
+  "name": "personal_site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:server": "nodemon ./src/index",
+    "start:client": "react-scripts start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chrisfyi/personal_site.git"
+  },
+  "keywords": [],
+  "plugins": [
+    "react-hooks"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "express": "^4.17.1",
+    "jsx": "^0.9.89",
+    "morgan": "^1.10.0",
+    "node": "^14.5.0",
+    "nodemon": "^2.0.4",
+    "pg": "^8.2.2",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.1.1",
+    "react-dom": "^16.13.1",
+    "react-iframe": "^1.8.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^3.4.2"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
