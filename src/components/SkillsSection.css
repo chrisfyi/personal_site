@@ -1,0 +1,29 @@
+section.skills.is-primary.is-medium {
+
+ background-color: rgb(194, 220, 238);
+}
+
+h1.title.is-size-4.is-spaced{
+    color:black;
+    font-family: 'Cutive Mono', monospace;
+    text-align:center;
+    
+}
+
+ion-icon {
+    font-size:128px;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid black;
+}
+
+
+
+p.title.has-text-centered {
+    font-family: 'Cutive Mono', monospace;
+    padding-bottom: 1.5rem;
+}
+
+p.list-title.is-primary.has-text-weight-normal.has-text-centered {
+    color:rgb(0, 142, 207);
+}

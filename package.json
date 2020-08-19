@@ -15,10 +15,16 @@
   "plugins": [
     "react-hooks"
   ],
+  "type": "module",
   "author": "",
   "license": "ISC",
   "devDependencies": {},
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.30",
+    "@fortawesome/free-solid-svg-icons": "^5.14.0",
+    "@fortawesome/react-fontawesome": "^0.1.11",
+    "bulma": "^0.9.0",
+    "bulma-carousel": "^4.0.4",
     "express": "^4.17.1",
     "jsx": "^0.9.89",
     "morgan": "^1.10.0",
@@ -28,6 +34,7 @@
     "react": "^16.13.1",
     "react-bootstrap": "^1.1.1",
     "react-dom": "^16.13.1",
+    "react-icons": "^3.10.0",
     "react-iframe": "^1.8.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "^3.4.2"

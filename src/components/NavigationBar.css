@@ -1,0 +1,16 @@
+.level {
+    background-color: black
+}
+
+p.level-item.has-text-centered{
+    color:white;
+    justify-self: center;
+    padding-top: 1rem;
+    padding-bottom:1rem;
+    
+
+}
+
+h1.title.is-spaced.is-size-1 {
+    font-family: 'Cutive Mono', monospace; 
+} 
