@@ -1,8 +1,4 @@
 import React from 'react';
-import {CardDeck, Card} from 'react-bootstrap';
-// import { FontAwesomIcon } from '@fortawesome/react-fontawesome';
-// import { falaptop } from '@fortawesome/free-solid-svg-icons'
-
 
 import "../components/SkillsSection.css"
 

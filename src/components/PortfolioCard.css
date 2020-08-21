@@ -1,5 +1,6 @@
 section.portCards.is-primary.is-small.has-text-centered {
-    background-color:rgb(236, 236, 236)
+    background-color:rgb(236, 236, 236);
+    margin-top: 3.5rem;
 }
 
 /* figure.link.image{

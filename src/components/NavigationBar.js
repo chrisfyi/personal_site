@@ -1,25 +1,62 @@
 import React from 'react'
-// import { Navbar,  } from 'react-bootstrap'
+import { MDBSmoothScroll } from "mdbreact"
+
+import ParagraphCard from "../components/ParagraphCard"
+
+import SkillsCardDeck from "../components/SkillsSection"
+
+import PortfolioCardGroups from "../components/PortfolioCardGroups"
 
 import "../components/NavigationBar.css"
+
+import github from "../assets/logo-github.svg"
+import LinkedIn from "../assets/logo-linkedin.svg"
+import email from "../assets/mail.svg"
 
 
 
 const NavigationBar = () => {
 
     return (
+       
+       
        <>
+      
           <section class="hero is-transparent is-small">
   {/* <!-- Hero head: will stick at the top --> */}
-            <div class="hero">
-              <nav class="navbar">
-                <div class="container">
-                  <div class="navbar-brand">
+          <div class= "column">
+            <p class="buttons">
+              
+              <a href="https://www.github.com/chrisfyi">
+                <button class="button is-medium">
+                  <span class="icon">
+                    <img class="logo"  alt= " git hub "src= { github } />
+                  </span>
+                  <span>GitHub</span>
+                </button>
+              </a>
+
+              <a href ="https://www.linkedin.com/in/chrisj117/">
+                <button class="button is-medium">
+                  <span class="icon">
+                    <img class="logo"  alt ="linked in" src= { LinkedIn } />
+                  </span>
+                  <span>LinkedIn</span>
+                </button>
+                </a>  
+                <a href = "mailto: chrisfyi@hotmail.com">
+                <button class="button is-medium">
+                  <span class="icon">
+                  <img class="logo" alt="email" src= { email }></img>
+                  </span>
+                  <span>Email</span>
+                </button>
+                </a>
+            </p>
+          </div>
+            
                     
-                  </div>
-                  </div>
-              </nav>
-            </div>
+              
 
   {/* <!-- Hero content: will be in the middle --> */}
             <div class="hero-body has-text-centered">
@@ -36,22 +73,23 @@ const NavigationBar = () => {
   
 
   {/* <!-- Hero footer: will stick at the bottom --> */}
- 
+            
+
+
             <nav class="level ">
             <p class="level-item has-text-centered has-text-justified ">
-              <a class="is-size-5">About Me</a>
+              {/* <a class="is-size-5" href= { ParagraphCard } >About Me</a> */}
             </p>
             <p class="level-item has-text-centered">
-              <a class="is-size-5">Skills</a>
+              {/* <a href="" class="is-size-5">Skills</a> */}
             </p>
 
             <p class="level-item has-text-centered">
-              <a class="is-size-5"
-              >Projects</a>
+              {/* <a class="is-size-5"
+              >Projects</a> */}
             </p>
             <p class="level-item has-text-centered">
-              <a class="is-size-5"
-              >Contact</a>
+              {/* <a class="is-size-5">Contact</a> */}
             </p>
           </nav>
         </section>

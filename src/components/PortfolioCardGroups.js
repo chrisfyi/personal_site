@@ -28,10 +28,10 @@ const PortfolioCardGroups = () => {
                       <div class="port box">
                        
                         <figure class="image">
-                          <img src= { afc } ></img>
+                          <img src= { afc } alt=""></img>
                         </figure>
                       
-                      <h1 class="title is-size-4 is-spaced">AFC Skate</h1>
+                      <h1 class="title is-size-4 is-spaced">AFC Skate Shop</h1>
                      
                       <p class=" portText has-text-centered"> A Full Stack e-commerce web application where users can shop for skate wear and supplies. Users have the ability to to create an account, shop and checkout easily. I developed this along with two talented teammates in Aiden Weber and Frak Stefanski.</p>
                       <p class="list-title is-primary  has-text-weight-normal has-text-centered">Technologies Used:</p>
@@ -63,7 +63,7 @@ const PortfolioCardGroups = () => {
                     <div class="port card">
                       <div class="port box">
                   <figure class="link image">
-                         <img src= { link }></img>
+                         <img src= { link } alt="" ></img>
                       </figure>
                       <h1 class="title is-size-4 is-spaced">The Great Linkerator</h1>
                       <p class="portText has-text-centered"> A Fullstack bookmark web application that allows users to keep track of their favorite links, add comments and tags to categorize them. I developed this project with two of my classmates, Kevin Hassencamp and Garrett Wren.</p>
@@ -82,7 +82,7 @@ const PortfolioCardGroups = () => {
                       <div class="port card">  
                       <div class="box">
                   <figure class="image">
-                          <img src= { userhub }></img>
+                          <img src= { userhub } alt=""></img>
                       </figure>
                       <h1 class="title is-size-4 is-spaced">User Hub</h1>
                       <p class="portText has-text-centered"> A web application that displays users posts and todo lists that they have created. This project utilizes the React framework for asynchronous programming and also the React Router to handle the front-end routing. This app was styled with CSS3 that was also rendered with React.  </p>
@@ -103,7 +103,7 @@ const PortfolioCardGroups = () => {
                     <div class="port card">
                       <div class="port box">
                   <figure class="link image">
-                         <img src= { deckBuilder }></img>
+                         <img src= { deckBuilder } alt=""></img>
                       </figure>
                       <h1 class="title is-size-4 is-spaced">Deckbuilder</h1>
                       <p class="portText has-text-centered"> A web application that I designed around the Magic: The Gathering Card Game. It allows users to research and build card decks for the game. It was built using the React framework,made its API call using Axios, and it was styled with CSS3.</p>
@@ -122,7 +122,7 @@ const PortfolioCardGroups = () => {
                       <div class="port card">  
                       <div class="box">
                   <figure class="image">
-                          <img src= { devjobs }></img>
+                          <img src= { devjobs } alt=""></img>
                       </figure>
                       <h1 class="title is-size-4 is-spaced">Dev Jobs</h1>
                       <p class="portText has-text-centered"> A web application that displays users posts and todo lists that they have created. This project utilizes the React framework for asynchronous programming and also the React Router to handle the front-end routing. This app was styled with CSS3 that was also rendered with React.  </p>
@@ -143,10 +143,10 @@ const PortfolioCardGroups = () => {
                       <div class="box">
                       
                   <figure class="image">
-                          <img src= { todo }></img>
+                          <img src= { todo } alt="" ></img>
                       </figure>
                       <h1 class="title is-size-4 is-spaced">TODO App</h1>
-                      <p class="portText has-text-centered"> TODO App is a simple, three-column to-do JavaScript app, allowing its users to create and delete todo items. This app automatically filters items as complete, pending, or expired. It also allows users to manually move complete items to incomplete, and expired and incomplete items to complete.  </p>
+                      <p class="portText has-text-centered"> TODO App is a simple, three-column to-do JavaScript app, allowing users to create and delete todo items. This app automatically filters items as complete, pending, or expired. It also allows users to manually move complete items to incomplete, and expired and incomplete items to complete.  </p>
                       <p class="list-title is-primary  has-text-weight-normal has-text-centered">Technologies Used:</p>
                       <ul>
                           <li>Javascript</li>
@@ -156,15 +156,12 @@ const PortfolioCardGroups = () => {
                       </ul>
                       </div>
                       </div>
-                  </div>
-
-                 
+                  </div>  
            </div> 
-       </div>
+         </div>
       </div>
-   
-   </section>
-  </div>
+    </section>
+</div>
 
     )}
 
