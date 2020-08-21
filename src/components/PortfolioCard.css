@@ -24,8 +24,13 @@ h1.title.is-size-4.is-spaced{
 
 p.portText.has-text-centered{
     padding-bottom:2rem;
+    color:black
 }
 
 div.port.card{
     height:100%
+}
+
+ul{
+    color:black
 }
