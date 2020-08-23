@@ -7,7 +7,7 @@
     "node": "13.13.0",
     "npm": "6.14.4"
   },
-  "homepage": "https://github.com/chrisfyi/personal_site",
+  "homepage": "https://github.com/chrisfyi/personal_site/index.html",
   "scripts": {    
     "start": "react-scripts start",
     "deploy": "gh-pages -d build",
