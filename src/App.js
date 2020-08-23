@@ -25,15 +25,10 @@ const App =() => {
                     <SkillsSection/>  
                     <PortfolioCardGroups />
                     <YoutubeVid />
-                    
-                    
                   </div> 
-               
             </div>
-         </div>
+          </div>
     )
-
-   
 }
 
 export default App;
