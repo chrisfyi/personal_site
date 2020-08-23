@@ -1,17 +1,10 @@
 import React from 'react'
-import { MDBSmoothScroll } from "mdbreact"
-
-import ParagraphCard from "../components/ParagraphCard"
-
-import SkillsCardDeck from "../components/SkillsSection"
-
-import PortfolioCardGroups from "../components/PortfolioCardGroups"
 
 import "../components/NavigationBar.css"
 
 import github from "../assets/logo-github.svg"
 import LinkedIn from "../assets/logo-linkedin.svg"
-import email from "../assets/mail.svg"
+import email from "../assets/mail-outline.svg"
 
 
 
@@ -23,8 +16,8 @@ const NavigationBar = () => {
        <>
       
           <section class="hero is-transparent is-small">
-  {/* <!-- Hero head: will stick at the top --> */}
-          <div class= "column">
+         
+           <div class= "column">
             <p class="buttons">
               
               <a href="https://www.github.com/chrisfyi">
@@ -51,10 +44,10 @@ const NavigationBar = () => {
                   </span>
                   <span>Email</span>
                 </button>
-                </a>
+                </a> 
             </p>
           </div>
-            
+        
                     
               
 
