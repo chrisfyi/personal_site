@@ -1,6 +1,7 @@
 section.is-primary.is-medium {
     
     background-color:rgb(238, 238, 238);
+    
 
 }
 
@@ -8,4 +9,8 @@ h1.title.is-size-1-desktop {
     padding-bottom: 4.5rem;
     font-family: 'Cutive Mono', monospace;
 
+}
+
+section.is-primary.is-medium.has-text-centered {
+    padding:5rem;
 }

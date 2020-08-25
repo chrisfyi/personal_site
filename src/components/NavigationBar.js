@@ -15,13 +15,13 @@ const NavigationBar = () => {
        
        <>
       
-          <section class="hero is-transparent is-small">
+          <section class="hero is-transparent is-11 is-small">
          
-           <div class= "column">
+           <div class= "column is-11">
             <p class="buttons">
               
               <a href="https://www.github.com/chrisfyi">
-                <button class="button is-medium">
+                <button class="button is-small">
                   <span class="icon">
                     <img class="logo"  alt= " git hub "src= { github } />
                   </span>
@@ -30,7 +30,7 @@ const NavigationBar = () => {
               </a>
 
               <a href ="https://www.linkedin.com/in/chrisj117/">
-                <button class="button is-medium">
+                <button class="button is-small">
                   <span class="icon">
                     <img class="logo"  alt ="linked in" src= { LinkedIn } />
                   </span>
@@ -38,7 +38,7 @@ const NavigationBar = () => {
                 </button>
                 </a>  
                 <a href = "mailto: chrisfyi@hotmail.com">
-                <button class="button is-medium">
+                <button class="button is-small">
                   <span class="icon">
                   <img class="logo" alt="email" src= { email }></img>
                   </span>
@@ -52,7 +52,7 @@ const NavigationBar = () => {
               
 
   {/* <!-- Hero content: will be in the middle --> */}
-            <div class="hero-body has-text-centered">
+            <div class="hero-body has-text-centered is-11">
               <div>
                 <h1 class="title is-spaced is-size-1 ">
                 Christopher Jones

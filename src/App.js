@@ -15,8 +15,8 @@ const App =() => {
 
     
         return(
-          <div class= "columns">
-            <div class= "column">
+          <div class= "columns  is-centered">
+            <div class= "column is-11">
               
                   <div> 
                     <NavigationBar />

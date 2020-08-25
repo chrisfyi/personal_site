@@ -5,7 +5,7 @@ import "../components/ParagraphCard.css"
 const ParagraphCard =() =>{
 
     return (
-        <section class="section is-primary is-medium has-text-centered is-long">
+        <section class="section is-primary is-medium has-text-centered">
              <div class="container">
               <div class="hero is-transparent is small">
                 <div class="hero-head is-transparent"></div>
