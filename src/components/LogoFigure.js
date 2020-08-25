@@ -3,7 +3,7 @@ import React from 'react'
 import "./LogoFigure.css"
 
 
-import desk from '/Users/chrisfyi/Desktop/course_work/personal_site/src/assets/desk.png'
+import desk from '../assets/desk.png'
 
 const MyImage = () => {
 
