@@ -142,27 +142,89 @@ const PortfolioCardGroups = () => {
                       </div>
                   </div>
 
-                  <div class="column is-12-mobile is-half-tablet is-one-third-desktop level-item">
-                        <div class="port card">
+                <div class="column is-12-mobile is-half-tablet is-one-third-desktop level-item">
+                    <div class="port card">
                       <div class="box">
-                            <a href="https://modest-noether-862f3a.netlify.app">
-                  <figure class="image">
-                          <img src= { todo } alt="" ></img>
-                      </figure>
-                      <h1 class="title is-size-4 is-spaced">TODO App</h1>
-                      <p class="portText has-text-centered"> TODO App is a simple, three-column to-do JavaScript app, allowing users to create and delete todo items. This app automatically filters items as complete, pending, or expired. It also allows users to manually move complete items to incomplete, and expired and incomplete items to complete.  </p>
-                      <p class="list-title is-primary  has-text-weight-normal has-text-centered">Technologies Used:</p>
-                      <ul>
-                          <li>Javascript</li>
-                          <li>HTML 5</li>
-                          <li>CSS3</li>
-                          
-                      </ul>
-                      </a>
-                      </div>
-                      </div>
-                      
-                  </div>  
+                         <a href="https://modest-noether-862f3a.netlify.app">
+                            <figure class="image">
+                            <img src= { todo } alt="" ></img>
+                            </figure>
+                                <h1 class="title is-size-4 is-spaced">TODO App</h1>
+                                <p class="portText has-text-centered"> TODO App is a simple, three-column to-do JavaScript app, allowing users to create and delete todo items. This app automatically filters items as complete, pending, or expired. It also allows users to manually move complete items to incomplete, and expired and incomplete items to complete.  </p>
+                                <p class="list-title is-primary  has-text-weight-normal has-text-centered">Technologies Used:</p>
+                                    <ul>
+                                        <li>Javascript</li>
+                                        <li>HTML 5</li>
+                                        <li>CSS3</li>
+                                    </ul>
+                         </a>
+                        </div>
+                    </div>
+                </div>  
+
+{/* 
+                <div class="column is-12-mobile is-half-tablet is-one-third-desktop level-item">
+                    <div class="port card">
+                      <div class="box">
+                         <a href="https://modest-noether-862f3a.netlify.app">
+                            <figure class="image">
+                            <img src= { todo } alt="" ></img>
+                            </figure>
+                                <h1 class="title is-size-4 is-spaced">TODO App</h1>
+                                <p class="portText has-text-centered"> TODO App is a simple, three-column to-do JavaScript app, allowing users to create and delete todo items. This app automatically filters items as complete, pending, or expired. It also allows users to manually move complete items to incomplete, and expired and incomplete items to complete.  </p>
+                                <p class="list-title is-primary  has-text-weight-normal has-text-centered">Technologies Used:</p>
+                                    <ul>
+                                        <li>Javascript</li>
+                                        <li>HTML 5</li>
+                                        <li>CSS3</li>
+                                    </ul>
+                         </a>
+                        </div>
+                    </div>
+                </div>  
+
+
+                <div class="column is-12-mobile is-half-tablet is-one-third-desktop level-item">
+                    <div class="port card">
+                      <div class="box">
+                         <a href="https://modest-noether-862f3a.netlify.app">
+                            <figure class="image">
+                            <img src= { todo } alt="" ></img>
+                            </figure>
+                                <h1 class="title is-size-4 is-spaced">TODO App</h1>
+                                <p class="portText has-text-centered"> TODO App is a simple, three-column to-do JavaScript app, allowing users to create and delete todo items. This app automatically filters items as complete, pending, or expired. It also allows users to manually move complete items to incomplete, and expired and incomplete items to complete.  </p>
+                                <p class="list-title is-primary  has-text-weight-normal has-text-centered">Technologies Used:</p>
+                                    <ul>
+                                        <li>Javascript</li>
+                                        <li>HTML 5</li>
+                                        <li>CSS3</li>
+                                    </ul>
+                         </a>
+                        </div>
+                    </div>
+                </div>  
+
+
+                <div class="column is-12-mobile is-half-tablet is-one-third-desktop level-item">
+                    <div class="port card">
+                      <div class="box">
+                         <a href="https://modest-noether-862f3a.netlify.app">
+                            <figure class="image">
+                            <img src= { todo } alt="" ></img>
+                            </figure>
+                                <h1 class="title is-size-4 is-spaced">TODO App</h1>
+                                <p class="portText has-text-centered"> TODO App is a simple, three-column to-do JavaScript app, allowing users to create and delete todo items. This app automatically filters items as complete, pending, or expired. It also allows users to manually move complete items to incomplete, and expired and incomplete items to complete.  </p>
+                                <p class="list-title is-primary  has-text-weight-normal has-text-centered">Technologies Used:</p>
+                                    <ul>
+                                        <li>Javascript</li>
+                                        <li>HTML 5</li>
+                                        <li>CSS3</li>
+                                    </ul>
+                         </a>
+                        </div>
+                    </div>
+                </div>           */}
+           
            </div> 
          </div>
       </div>

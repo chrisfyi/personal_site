@@ -16,7 +16,13 @@ const ParagraphCard =() =>{
                   <div class= "columns is-three-fifths">
                      
                       <p class="subtitle is-size-4-desktop">
-                        I am a Web Developer. I recently received a certificate from the Coding Bootcamp at California State Polytechnic University, Pomona. I intend to put this certificate to use in either Front-end, Back-end or Fullstack development. I have experience with Front-end and Back-end technologies and have done projects that implement them. I have a particular interest in building robust and fluid front-end applications. I love to learn, am easy to work with, and I work tirelessly to ensure my work is quality material.<br></br> I look forward to working with you!
+                        I am a Web Developer. I recently received a certificate from the Coding Bootcamp at CalPoly hosted by Fullstack Academy. This was a rigorous program where I learned front-end and back-end technologies such as Javascript, React, Node and more. 
+                        <br></br>
+                        <br></br> 
+                        Up next I intend to put my skilld to use in either front-end, back-end or fullstack development. My project portfolio demonstrates a mix of technologies as well as my own creative touch. I have a particular interest in building robust and fluid front-end applications. I love to learn, am easy to work with, and I work tirelessly to ensure my work is quality material.
+                        <br></br> 
+                        <br></br>
+                        I look forward to working with you!
                       </p>
                   </div>
                </div>
